@@ -22,7 +22,8 @@ default = ["sign-http"]
 hex = "0.4"
 once_cell = "1.8"
 regex = "1.5"
-ring = "0.17.0-alpha.11"
+# main branch on 2022-12-06
+ring = { git = "ssh://git@github.com/briansmith/ring.git", rev = "450ada288f1805795140097ec96396b890bcf722" }
 time = "0.3.5"
 tracing = "0.1"
 
