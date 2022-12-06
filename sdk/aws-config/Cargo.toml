@@ -21,8 +21,7 @@ rt-tokio = ["aws-smithy-async/rt-tokio", "tokio/rt"]
 default = ["client-hyper", "rustls", "rt-tokio"]
 
 [dependencies]
-# main branch on 2022-12-06
-ring = { git = "ssh://git@github.com/briansmith/ring.git", rev = "450ada288f1805795140097ec96396b890bcf722" }
+ring = { git = "ssh://git@github.com/gagbo/ring.git", branch = "custom_getrandom" }
 hex = "0.4.3"
 zeroize = "1"
 bytes = "1.1.0"
